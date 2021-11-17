@@ -1,0 +1,35 @@
+/**
+ * @param {string[]} words
+ * @return {number}
+ */
+var maxProduct = function (words) {
+    let maxNumber = 0
+    let maxNumberOne = 0
+    words.forEach((word, index) => {
+        diffWords = words
+        diffWords.splice(index, 1)
+        word = word.split('')
+        word.forEach((str) => {
+            diffWords.some((word2, index2) => {
+                word2 = word2.split('')
+                isSame = word2.includes(str)
+                if (isSame) {
+                    diffWords.splice(index2,1)
+                    return true
+                }
+                else if ((word2.length)*(word.length) > maxNumberOne) {
+                    maxNumberOne = (word2.length)*(word.length)
+                }
+            })
+        })
+        if (maxNumber < maxNumberOne) {
+            maxNumber = maxNumberOne
+        }
+    })
+    if (maxNumber === 0) {
+        return 0
+    }
+    else {
+        return maxNumber
+    }
+};
