@@ -28,6 +28,7 @@ var removeDuplicates = function(nums) {
 }
 //++i,i++,i+=num,,,这些只是对变量计算的简写，与i=i+1本质上相同
 2.双指针写法进行数组去重
+力扣链接：https://leetcode-cn.com/problems/remove-element/solution/yi-chu-yuan-su-by-leetcode-solution-svxi/
 var removeElement = function(nums, val) {
     i=-1
     for(let j=0;j<nums.length;j++){
