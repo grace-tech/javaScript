@@ -27,3 +27,13 @@ var removeDuplicates = function(nums) {
   
 }
 //++i,i++,i+=num,,,这些只是对变量计算的简写，与i=i+1本质上相同
+2.双指针写法进行数组去重
+var removeElement = function(nums, val) {
+    i=-1
+    for(let j=0;j<nums.length;j++){
+        if(nums[j]!==val){
+            nums[++i]=nums[j]
+        }
+    }
+    return i+1
+};
