@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T05:56:49.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="jtw8odNtZfRTD-va_ZFs" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T05:58:16.522Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="kvY4CSCK7bhWtAg-Hd4N" version="16.5.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1022" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,6 +27,12 @@
         </mxCell>
         <mxCell id="wCMmacWut8D4qa3MLW9j-24" value="居家养老模式系统" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="220" y="280" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wCMmacWut8D4qa3MLW9j-37" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="420" as="targetPoint" />
+            <mxPoint x="410" y="360" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="wCMmacWut8D4qa3MLW9j-25" value="机构养老模式系统" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="380" y="280" width="60" height="60" as="geometry" />
@@ -72,7 +78,7 @@
           <mxGeometry x="320" y="190" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wCMmacWut8D4qa3MLW9j-36" value="&lt;span&gt;个性化养老方案&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="320" y="380" width="180" height="40" as="geometry" />
+          <mxGeometry x="320" y="430" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
